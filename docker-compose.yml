@@ -1,16 +1,10 @@
 version: '3'
 
-networks:
-  web:
-    external: true
-
 services:
-  dashboard:
+  web:
     build:
       context: .
       dockerfile: Dockerfile
-    networks:
-      - web
     ports:
       - "8080:80"
     restart: always
