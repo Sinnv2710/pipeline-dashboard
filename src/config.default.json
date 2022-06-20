@@ -1,0 +1,58 @@
+{
+  "gitlabApi": "https://gitlab.example.com/api/v4",
+  "privateToken": "ABCDEF1234",
+  "maxAge": 168,
+  "fetchCount": 20,
+  "pipelinesOnly": false,
+  "autoZoom": false,
+  "showPipelineIds": true,
+  "showProjectOnlyOn": [],
+  "showJobs": "icon",
+  "showJobsNameOnlyOn": [],
+  "showRestartedJobs": true,
+  "showStagesNames": true,
+  "showDurations": true,
+  "showCoverage": true,
+  "showTestReport": true,
+  "showUsers": true,
+  "showRerunButton": true,
+  "title": "HHG QA PIPELINES DASHBOARD",
+  "orderBy": "lastActivity",
+  "orderByDesc": false,
+  "pollingIntervalMultiplier": 1.0,
+  "backgroundRefresh": true,
+  "projectVisibility": "private",
+  "membership": false,
+  "badges": false,
+  "showRunnerStatus": true,
+  "filter": {
+    "include": ".*",
+    "includeTags": ".*",
+    "exclude": null,
+    "excludeTags": null,
+    "excludeUntagged": false
+  },
+  "projectConfig": {
+    "*": {
+      "include": ".*",
+      "exclude": null,
+      "default": ".*",
+      "showMerged": true,
+      "showTags": true,
+      "showLatestTagOnly": true,
+      "showDetached": false,
+      "showLabels": true,
+      "historyCount": 1,
+      "hideSkippedPipelines": false,
+      "hideSuccessfulPipelines": false,
+      "soundAlerts": {
+        "soundUrl": null,
+        "include": ".*",
+        "exclude": null
+      }
+    }
+  },
+  "projectScope": null,
+  "projectScopeId": null,
+  "theme": "nord-dark"
+}
